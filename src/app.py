@@ -12,7 +12,7 @@ import hug
 s3 = client('s3')
 
 
-#HAVE TO FIGURE OUT HOW TO SET THE BROWSER USER AGENT!! MIGHT BE IN OLD PROJECT 
+#HAVE TO FIGURE OUT HOW TO SET THE BROWSER USER AGENT!! MIGHT BE IN OLD PROJECT !!!!
 
 
 @hug.get('/', examples="bucket=tsarticle&folder=newspaper_drop&filename=20171231-sugarcandy-com-23&url=http://www.sugarcandy.com/baby-bites-dingo.html")
